@@ -63,7 +63,67 @@ class CompanyController {
       "inStock": true
     }
   ]
-}
+},
+{
+    "company": "Tech Innovators",
+    "location": "San Francisco",
+    "employees": [
+      {
+        "name": "Alice",
+        "age": 30,
+        "position": "Data Scientist",
+        "skills": ["Python", "Machine Learning", "SQL"]
+      },
+      {
+        "name": "Bob",
+        "age": 40,
+        "position": "DevOps Engineer",
+        "skills": ["AWS", "Docker", "Kubernetes"]
+      }
+    ],
+    "products": [
+      {
+        "name": "Product A",
+        "price": 29.99,
+        "inStock": true
+      },
+      {
+        "name": "Product B",
+        "price": 49.99,
+        "inStock": false
+      }
+    ]
+  },
+  {
+    "company": "GreenTech Solutions",
+    "location": "Austin",
+    "employees": [
+      {
+        "name": "Emily",
+        "age": 32,
+        "position": "Environmental Engineer",
+        "skills": ["CAD", "Environmental Impact Assessment", "Project Management"]
+      },
+      {
+        "name": "Frank",
+        "age": 45,
+        "position": "R&D Specialist",
+        "skills": ["Product Development", "Market Research", "Sustainability"]
+      }
+    ],
+    "products": [
+      {
+        "name": "Product C",
+        "price": 24.99,
+        "inStock": true
+      },
+      {
+        "name": "Product D",
+        "price": 34.99,
+        "inStock": true
+      }
+    ]
+  }
 ]""";
   final List<Company> _list = [];
 
