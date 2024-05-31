@@ -1,5 +1,9 @@
 # companies_json_model
 
 A new Flutter project.
-https://github.com/khusantoy/companies-json-model/assets/119614237/4f44b840-fb6d-4d07-ae28-f4be01f967f8
+
+
+
+https://github.com/khusantoy/companies-json-model/assets/119614237/2cdcb8b8-33e4-4fc2-af78-a094e976be95
+
 
