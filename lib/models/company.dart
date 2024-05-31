@@ -2,10 +2,10 @@ import 'package:companies_json_model/models/employee.dart';
 import 'package:companies_json_model/models/product.dart';
 
 class Company {
-  final String name;
-  final String location;
-  final List<Employee> employees;
-  final List<Product> products;
+  String name;
+  String location;
+  List<Employee> employees;
+  List<Product> products;
 
   Company({
     required this.name,

@@ -1,6 +1,8 @@
 import 'dart:convert';
 
 import 'package:companies_json_model/models/company.dart';
+import 'package:companies_json_model/models/employee.dart';
+import 'package:companies_json_model/models/product.dart';
 
 class CompanyController {
   var mockJson = """[
@@ -146,5 +148,35 @@ class CompanyController {
     } catch (e) {
       print(e);
     }
+  }
+
+  void add(
+    String name,
+    String location,
+    List<Employee> employees,
+    List<Product> products,
+  ) {
+    _list.add(Company(
+        name: name,
+        location: location,
+        employees: employees,
+        products: products));
+  }
+
+  void update(
+    int index,
+    String name,
+    String location,
+    List<Employee> employees,
+    List<Product> products,
+  ) {
+    _list[index].name = name;
+    _list[index].location = location;
+    _list[index].employees = employees;
+    _list[index].products = products;
+  }
+
+  void delete(int index) {
+    _list.removeAt(index);
   }
 }
